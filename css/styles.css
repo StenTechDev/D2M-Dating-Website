@@ -1,0 +1,155 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #fcf8ec;
+    color: #456268;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 600;
+    color: #456268;
+}
+
+h4 {
+    color: #fcf8ec;
+    line-height: 1.5;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+}
+
+p {
+    color: #79a3b1;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Josefin Slab";
+    font-size: 2rem;
+    color: white;
+}
+
+.logo {
+    height: 60%;
+    width: 60%;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.dropdown-menu {
+    border: 0;
+}
+
+.dropdown-item:focus {
+    background-color: #d0e8f2;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(10deg);
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #456268;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #79a3b1;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #79a3b1;
+    color: #fcf8ec;
+}
+
+.proposal {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+    position: relative;
+}
+
+#press {
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    padding-top: 5%;
+    margin: 20px 20px 50px;
+}
+
+.bk-img {
+    background-color: #cccccc;
+    height: 800px;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .bk-txt {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .footer-sec {
+      padding: 3%;
+  }
