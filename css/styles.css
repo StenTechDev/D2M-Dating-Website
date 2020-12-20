@@ -1,42 +1,35 @@
 body {
-    font-family: "Montserrat";
-}
-
-#title {
-    background-color: #fcf8ec;
-    color: #456268;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-weight: 600;
-    color: #456268;
-}
-
-h4 {
-    color: #fcf8ec;
-    line-height: 1.5;
-    text-shadow: 2px 2px #000;
-    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 p {
     color: #79a3b1;
 }
 
-.container-fluid {
-    padding: 3% 15%;
+/* Headers */
+
+.big-header {
+    text-align: left;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.feature-header {
+    font-weight: 600;
+    color: #456268;
+}
+
+.download-statement {
+    color: #fcf8ec;
+    line-height: 1.5;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+}
+
+.footer-header {
+    color: #456268;
 }
 
 /* Navigation Bar */
@@ -72,11 +65,24 @@ p {
     background-color: #d0e8f2;
 }
 
+#title {
+    background-color: #fcf8ec;
+    color: #456268;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+
 /* Download Buttons */
 
 .download-button {
     margin: 5% 3% 5% 0;
 }
+
+
 
 /* Title Image */
 
@@ -85,6 +91,8 @@ p {
     transform: rotate(10deg);
 }
 
+
+
 /* Features */
 
 #features {
@@ -92,7 +100,6 @@ p {
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -105,11 +112,12 @@ p {
     color: #79a3b1;
 }
 
+
+
 /* Testimonial Section */
 
 #testimonials {
     padding: 7% 15%;
-    text-align: center;
     background-color: #79a3b1;
     color: #fcf8ec;
 }
@@ -122,7 +130,6 @@ p {
 }
 
 #press {
-    text-align: center;
     padding: 3%;
 }
 
@@ -141,15 +148,41 @@ p {
     position: relative;
   }
   
-  .bk-txt {
-    text-align: center;
+.bk-txt {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-  }
+}
 
-  .footer-sec {
+.footer-sec {
       padding: 3%;
-  }
+}
+
+
+
+/* Footer Section */
+  
+.link-secondary {
+    text-decoration: none;
+}
+
+.footer-sec {
+    text-align: left;
+}
+
+
+/* Mobile Version */
+
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
