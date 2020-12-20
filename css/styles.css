@@ -66,7 +66,6 @@ p {
 }
 
 #title {
-    background-color: #fcf8ec;
     color: #456268;
 }
 
@@ -74,7 +73,15 @@ p {
     padding: 3% 15%;
 }
 
+/* Sections */
 
+.colored-section {
+    background-color: #fcf8ec;
+}
+
+.white-section {
+    background-color: #fff;
+}
 
 /* Download Buttons */
 
@@ -114,20 +121,8 @@ p {
 
 
 
-/* Testimonial Section */
+/* Press */
 
-#testimonials {
-    padding: 7% 15%;
-    background-color: #79a3b1;
-    color: #fcf8ec;
-}
-
-.proposal {
-    width: 30%;
-    border-radius: 100%;
-    margin: 20px;
-    position: relative;
-}
 
 #press {
     padding: 3%;
@@ -140,7 +135,6 @@ p {
 }
 
 .bk-img {
-    background-color: #cccccc;
     height: 800px;
     background-position: auto;
     background-repeat: no-repeat;
@@ -184,5 +178,8 @@ p {
         position: static;
         transform: rotate(0);
         width: 50%;
+    }
+    .navbar-nav {
+        text-align: right;
     }
 }
